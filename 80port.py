@@ -182,7 +182,7 @@ scraper = cloudscraper.create_scraper(
 )
 scraper = cloudscraper.create_scraper(
   interpreter='nodejs',
-  recaptcha={
+  captcha={
     'provider': 'anticaptcha',
     'api_key': 'P6KLRNy7h3K160ZmYNUOAce7'
   }
